@@ -1,0 +1,9 @@
+/ros2_for_begginers/ros2_ws/src/build/my_cpp_pkg/CMakeFiles/uninstall.dir
+/ros2_for_begginers/ros2_ws/src/build/my_cpp_pkg/CMakeFiles/my_cpp_pkg_uninstall.dir
+/ros2_for_begginers/ros2_ws/src/build/my_cpp_pkg/CMakeFiles/test.dir
+/ros2_for_begginers/ros2_ws/src/build/my_cpp_pkg/CMakeFiles/edit_cache.dir
+/ros2_for_begginers/ros2_ws/src/build/my_cpp_pkg/CMakeFiles/rebuild_cache.dir
+/ros2_for_begginers/ros2_ws/src/build/my_cpp_pkg/CMakeFiles/list_install_components.dir
+/ros2_for_begginers/ros2_ws/src/build/my_cpp_pkg/CMakeFiles/install.dir
+/ros2_for_begginers/ros2_ws/src/build/my_cpp_pkg/CMakeFiles/install/local.dir
+/ros2_for_begginers/ros2_ws/src/build/my_cpp_pkg/CMakeFiles/install/strip.dir

@@ -1,0 +1,20 @@
+services:
+  ros2_dev:
+    network_mode: host
+    build:
+      network: host
+      context: .
+      args:
+        DIR: "${DIR}"
+    working_dir: /${DIR}
+    environment:
+      - DISPLAY=${DISPLAY}
+      - WAYLAND_DISPLAY=$WAYLAND_DISPLAY
+      - XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR
+      - QT_X11_NO_MITSHM=1
+    volumes:
+      - ./:/${DIR}
+      - /tmp/.X11-unix:/tmp/.X11-unix
+
+    tty: true
+    command: bash
