@@ -1,4 +1,6 @@
+/ros2_for_begginers/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_node.py
 /ros2_for_begginers/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/__init__.py
+/ros2_for_begginers/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/__pycache__/my_first_node.cpython-312.pyc
 /ros2_for_begginers/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/__pycache__/__init__.cpython-312.pyc
 /ros2_for_begginers/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages/my_py_pkg
 /ros2_for_begginers/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.xml
@@ -7,4 +9,6 @@
 /ros2_for_begginers/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info/PKG-INFO
 /ros2_for_begginers/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info/top_level.txt
 /ros2_for_begginers/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info/SOURCES.txt
+/ros2_for_begginers/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info/entry_points.txt
 /ros2_for_begginers/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info/requires.txt
+/ros2_for_begginers/ros2_ws/install/my_py_pkg/lib/my_py_pkg/py_node
