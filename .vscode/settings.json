@@ -1,0 +1,4 @@
+{
+    "cmake.sourceDirectory": "/ros2_for_begginers/ros2_ws/src/my_cpp_pkg",
+    "C_Cpp.errorSquiggles": "disabled"
+}

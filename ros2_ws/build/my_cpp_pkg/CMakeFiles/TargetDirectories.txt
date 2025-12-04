@@ -1,5 +1,6 @@
 /ros2_for_begginers/ros2_ws/build/my_cpp_pkg/CMakeFiles/uninstall.dir
 /ros2_for_begginers/ros2_ws/build/my_cpp_pkg/CMakeFiles/my_cpp_pkg_uninstall.dir
+/ros2_for_begginers/ros2_ws/build/my_cpp_pkg/CMakeFiles/cpp_node.dir
 /ros2_for_begginers/ros2_ws/build/my_cpp_pkg/CMakeFiles/test.dir
 /ros2_for_begginers/ros2_ws/build/my_cpp_pkg/CMakeFiles/edit_cache.dir
 /ros2_for_begginers/ros2_ws/build/my_cpp_pkg/CMakeFiles/rebuild_cache.dir
