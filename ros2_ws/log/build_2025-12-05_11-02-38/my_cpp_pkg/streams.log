@@ -1,0 +1,11 @@
+[0.005s] Invoking command in '/ros2_for_begginers/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_for_begginers/ros2_ws/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --build /ros2_for_begginers/ros2_ws/build/my_cpp_pkg -- -j20 -l20
+[0.043s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[0.986s] [01m[K/ros2_for_begginers/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In constructor ‘[01m[KMyNode::[01;32m[KMyNode[m[K()[m[K’:
+[0.986s] [01m[K/ros2_for_begginers/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:9:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_[m[K’?
+[0.986s]     9 |         [01;31m[Ktimer[m[K = this->create_wall_timer(std::chrono::seconds(1),
+[0.986s]       |         [01;31m[K^~~~~[m[K
+[0.987s]       |         [32m[Ktimer_[m[K
+[1.282s] gmake[2]: *** [CMakeFiles/cpp_node.dir/build.make:76: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Error 1
+[1.282s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node.dir/all] Error 2
+[1.283s] gmake: *** [Makefile:146: all] Error 2
+[1.285s] Invoked command in '/ros2_for_begginers/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_for_begginers/ros2_ws/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --build /ros2_for_begginers/ros2_ws/build/my_cpp_pkg -- -j20 -l20

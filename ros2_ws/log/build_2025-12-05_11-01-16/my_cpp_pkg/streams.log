@@ -1,0 +1,25 @@
+[0.007s] Invoking command in '/ros2_for_begginers/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_for_begginers/ros2_ws/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --build /ros2_for_begginers/ros2_ws/build/my_cpp_pkg -- -j20 -l20
+[0.047s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[1.016s] [01m[K/ros2_for_begginers/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In constructor ‘[01m[KMyNode::[01;32m[KMyNode[m[K()[m[K’:
+[1.016s] [01m[K/ros2_for_begginers/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:9:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_[m[K’?
+[1.016s]     9 |         [01;31m[Ktimer[m[K = this->create_wall_timer(std::chrono::seconds(1),
+[1.016s]       |         [01;31m[K^~~~~[m[K
+[1.016s]       |         [32m[Ktimer_[m[K
+[1.022s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[1.022s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[1.022s]                  from [01m[K/ros2_for_begginers/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:1[m[K:
+[1.022s] [01m[K/ros2_for_begginers/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In member function ‘[01m[Kvoid MyNode::[01;32m[KtimerCallback[m[K()[m[K’:
+[1.022s] [01m[K/ros2_for_begginers/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:15:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kthi[m[K’ was not declared in this scope; did you mean ‘[01m[Kthis[m[K’?
+[1.022s]    15 |         RCLCPP_INFO([01;31m[Kthi[m[K->get_logger(), "Hello %d", counter_);
+[1.022s]       |                     [01;31m[K^~~[m[K
+[1.022s] [01m[K/ros2_for_begginers/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:15:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.022s]    15 |         [01;31m[KRCLCPP_INFO[m[K(thi->get_logger(), "Hello %d", counter_);
+[1.022s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.025s] [01m[K/ros2_for_begginers/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcounter[m[K’ was not declared in this scope; did you mean ‘[01m[Kcounter_[m[K’?
+[1.025s]    16 |         [01;31m[Kcounter[m[K ++;
+[1.025s]       |         [01;31m[K^~~~~~~[m[K
+[1.025s]       |         [32m[Kcounter_[m[K
+[1.324s] gmake[2]: *** [CMakeFiles/cpp_node.dir/build.make:76: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Error 1
+[1.324s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node.dir/all] Error 2
+[1.324s] gmake: *** [Makefile:146: all] Error 2
+[1.328s] Invoked command in '/ros2_for_begginers/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_for_begginers/ros2_ws/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --build /ros2_for_begginers/ros2_ws/build/my_cpp_pkg -- -j20 -l20
