@@ -7,6 +7,7 @@ RUN apt-get update && \
     sudo \
     curl \
     git \
+    tmux \
     cmake \
     clang \
     libssl-dev \
