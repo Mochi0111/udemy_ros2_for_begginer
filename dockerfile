@@ -8,6 +8,7 @@ RUN apt-get update && \
     curl \
     git \
     tmux \
+    xclip \
     cmake \
     clang \
     libssl-dev \
