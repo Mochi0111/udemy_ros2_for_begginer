@@ -17,7 +17,6 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-RUN echo "source /opt/ros/jazzy/setup.bash" >> /etc/bash.bashrc
 
 ENV UV_SYSTEM_PYTHON=true \
     UV_LINK_MODE=copy
@@ -38,5 +37,9 @@ COPY . .
 ## ※ubuntu24.04イメージの場合, uid=1000のユーザーが"ubuntu"で割当済み.
 RUN chown -R ubuntu:ubuntu /${DIR}
 USER ubuntu
+
+# RUN echo "source /opt/ros/jazzy/setup.bash" >> /etc/bash.bashrc
+RUN echo "source /opt/ros/jazzy/setup.bash" >> "$HOME/.bashrc" \
+ && echo "source /ros2_for_begginers/ros2_ws/install/setup.bash" >> "$HOME/.bashrc"
 
 CMD ["bash"]

@@ -1,0 +1,6 @@
+[0.006s] Invoking command in '/home/chiba/workspace/udemy_ros2_for_begginer/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chiba/workspace/udemy_ros2_for_begginer/ros2_ws/build/my_cpp_pkg -- -j20 -l20
+[0.018s] [0mCMake Error: The current CMakeCache.txt directory /home/chiba/workspace/udemy_ros2_for_begginer/ros2_ws/build/my_cpp_pkg/CMakeCache.txt is different than the directory /ros2_for_begginers/ros2_ws/build/my_cpp_pkg where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.026s] [0mCMake Error: The source directory "/ros2_for_begginers/ros2_ws/src/my_cpp_pkg" does not exist.
+[0.026s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.027s] gmake: *** [Makefile:267: cmake_check_build_system] エラー 1
+[0.121s] Invoked command in '/home/chiba/workspace/udemy_ros2_for_begginer/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chiba/workspace/udemy_ros2_for_begginer/ros2_ws/build/my_cpp_pkg -- -j20 -l20
